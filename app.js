@@ -16,7 +16,7 @@ app.get('/dashboard', function (req, res) {
   res.sendFile(staticpath + '/dashboard.html');
 });
 
-app.get('dashboard.html/api', function (req, res) {
+app.get('/api', function (req, res) {
   antares.setAccessKey('6388160f97f65e86:814c491f9d66078b');
   antares.get('MACOPAD', 'MACOPAD01').then(function (response) {
     const data = response.content;
