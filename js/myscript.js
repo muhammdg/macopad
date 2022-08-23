@@ -42,7 +42,7 @@ signupButton.addEventListener('click', (e) => {
     })
     .then(() => {
       alert('User Telah Ditambahkan,Silahkan Sign In');
-      location.href = 'http://localhost:8080/index.html';
+      location.href = 'https://macopad.herokuapp.com/index.html';
     })
     .catch((error) => {
       alert(error);
@@ -68,7 +68,7 @@ signinButton.addEventListener('click', (e) => {
         .then(() => {
           // Data saved successfully!
           //   alert("user telah sukses login");
-          location.href = 'http://localhost:8080/dashboard.html';
+          location.href = 'https://macopad.herokuapp.com/dashboard.html';
         })
         .catch((error) => {
           //the write failed

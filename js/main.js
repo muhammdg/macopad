@@ -1,5 +1,5 @@
 setInterval(function () {
-    fetch("http://localhost:8080/api")
+    fetch("http://https://macopad.herokuapp.com/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
