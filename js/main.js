@@ -3,8 +3,8 @@ setInterval(function () {
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
-        document.getElementById("temp").innerHTML = res.Suhu;
-        document.getElementById("fan").innerHTML = res.Kipas;
+        document.getElementById("suhu").innerHTML = res.Suhu;
+        document.getElementById("kipas").innerHTML = res.Kipas;
 
         
       });
